@@ -11,7 +11,7 @@ public class MessageConsumer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageConsumer.class);
 
-    @JmsListener(destination = "bridgingcode-queue")
+    @JmsListener(destination = "sai-queue")
     public void messageListener(SystemMessage systemMessage) {
         LOGGER.info("Message received! {}", systemMessage);
     }

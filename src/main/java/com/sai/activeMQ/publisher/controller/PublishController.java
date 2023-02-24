@@ -18,7 +18,7 @@ public class PublishController {
     @PostMapping("/publishMessage")
     public ResponseEntity<String> publishMessage(@RequestBody SystemMessage systemMessage) {
         try {
-            jmsTemplate.convertAndSend("bridgingcode-queue", systemMessage);
+            jmsTemplate.convertAndSend("sai-queue", systemMessage);
             return new ResponseEntity<>("Sent.", HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
