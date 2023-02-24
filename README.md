@@ -1,8 +1,8 @@
 # Apache-Camel-ActiveMQ
 
 ```
-Apache ActiveMQ is an open source , java based message broker which supports a wide range of transport protocols including REST,
-MQTT, AQMP, & WebSockets 
+Apache ActiveMQ is an open source , java based message broker which supports a wide range of transport
+protocols including REST,MQTT, AQMP, & WebSockets 
 
 Use Cases:
 
