@@ -1,31 +1,9 @@
 package com.sai.activeMQ.model;
 
-import java.io.Serializable;
+import lombok.Data;
 
-public class SystemMessage implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+@Data
+public class SystemMessage {
     private String source;
     private String message;
-
-    public String getSource() {
-        return source;
-    }
-
-    public void setSource(String source) {
-        this.source = source;
-    }
-    public String getMessage() {
-        return message;
-    }
-    public void setMessage(String message) {
-        this.message = message;
-    }
-    @Override
-    public String toString() {
-        return "SystemMessage{" +
-                "source='" + source + '\'' +
-                ", message='" + message + '\'' +
-                '}';
-    }
 }

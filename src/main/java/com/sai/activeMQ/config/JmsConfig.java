@@ -1,10 +1,11 @@
 package com.sai.activeMQ.config;
 
-import jakarta.jms.ConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
+
+import javax.jms.ConnectionFactory;
 
 @Configuration
 @EnableJms
