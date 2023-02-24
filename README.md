@@ -37,3 +37,15 @@ Connection factory uses cache factory by default to enable message brokers
 <img width="1275" alt="Screenshot 2023-02-25 at 2 14 01 AM" src="https://user-images.githubusercontent.com/43849911/221287816-f4e64f2e-db99-431d-ad19-8b2f6dd4d706.png">
 
 <img width="1083" alt="Screenshot 2023-02-25 at 2 15 16 AM" src="https://user-images.githubusercontent.com/43849911/221288000-baf7f4b3-e8ff-4a85-b1cd-7728b3517c36.png">
+
+<img width="1082" alt="Screenshot 2023-02-25 at 2 15 48 AM" src="https://user-images.githubusercontent.com/43849911/221288080-fc7ad7eb-55a0-40e7-b764-301cd7fbeb86.png">
+
+<img width="1079" alt="Screenshot 2023-02-25 at 2 16 58 AM" src="https://user-images.githubusercontent.com/43849911/221288250-b83813ce-f80d-4394-a148-39d67c4d2801.png">
+
+```
+/bin/activemq start
+INFO: Loading '/Users/saiashish/Downloads/apache-activemq-5.17.3//bin/env'
+INFO: Using java '/usr/bin/java'
+INFO: Starting - inspect logfiles specified in logging.properties and log4j.properties to get details
+INFO: pidfile created : '/Users/saiashish/Downloads/apache-activemq-5.17.3//data/activemq.pid' (pid '9293')
+```
