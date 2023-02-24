@@ -49,3 +49,22 @@ INFO: Using java '/usr/bin/java'
 INFO: Starting - inspect logfiles specified in logging.properties and log4j.properties to get details
 INFO: pidfile created : '/Users/saiashish/Downloads/apache-activemq-5.17.3//data/activemq.pid' (pid '9293')
 ```
+
+```
+./bin/activemq stop 
+INFO: Loading '/Users/saiashish/Downloads/apache-activemq-5.17.3//bin/env'
+INFO: Using java '/usr/bin/java'
+INFO: Waiting at least 30 seconds for regular process termination of pid '9293' : 
+Java Runtime: Amazon.com Inc. 17.0.5 /Users/saiashish/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home
+  Heap sizes: current=67584k  free=65106k  max=1048576k
+    JVM args: -Xms64M -Xmx1G -Djava.util.logging.config.file=logging.properties -Djava.security.auth.login.config=/Users/saiashish/Downloads/apache-activemq-5.17.3//conf/login.config --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.classpath=/Users/saiashish/Downloads/apache-activemq-5.17.3//conf:/Users/saiashish/Downloads/apache-activemq-5.17.3//../lib/: -Dactivemq.home=/Users/saiashish/Downloads/apache-activemq-5.17.3/ -Dactivemq.base=/Users/saiashish/Downloads/apache-activemq-5.17.3/ -Dactivemq.conf=/Users/saiashish/Downloads/apache-activemq-5.17.3//conf -Dactivemq.data=/Users/saiashish/Downloads/apache-activemq-5.17.3//data -Djolokia.conf=file:/Users/saiashish/Downloads/apache-activemq-5.17.3//conf/jolokia-access.xml
+Extensions classpath:
+  [/Users/saiashish/Downloads/apache-activemq-5.17.3/lib,/Users/saiashish/Downloads/apache-activemq-5.17.3/lib/camel,/Users/saiashish/Downloads/apache-activemq-5.17.3/lib/optional,/Users/saiashish/Downloads/apache-activemq-5.17.3/lib/web,/Users/saiashish/Downloads/apache-activemq-5.17.3/lib/extra]
+ACTIVEMQ_HOME: /Users/saiashish/Downloads/apache-activemq-5.17.3
+ACTIVEMQ_BASE: /Users/saiashish/Downloads/apache-activemq-5.17.3
+ACTIVEMQ_CONF: /Users/saiashish/Downloads/apache-activemq-5.17.3/conf
+ACTIVEMQ_DATA: /Users/saiashish/Downloads/apache-activemq-5.17.3/data
+Connecting to pid: 9293
+Stopping broker: localhost
+.. TERMINATED
+```
