@@ -51,7 +51,8 @@ Connection factory uses cache factory by default to enable message brokers
 <img width="543" alt="Screenshot 2023-02-25 at 2 21 31 AM" src="https://user-images.githubusercontent.com/43849911/221289109-e8bf93e7-4a6c-4910-bab9-84429c03680b.png">
 
 ```
-/bin/activemq start
+cd apache-activemq-5.17.3
+./bin/activemq start
 INFO: Loading '/Users/saiashish/Downloads/apache-activemq-5.17.3//bin/env'
 INFO: Using java '/usr/bin/java'
 INFO: Starting - inspect logfiles specified in logging.properties and log4j.properties to get details
