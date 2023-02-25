@@ -18,6 +18,7 @@ what we'll build:
 <img width="703" alt="Screenshot 2023-02-25 at 1 35 52 AM" src="https://user-images.githubusercontent.com/43849911/221280062-5c09cd62-035e-4561-9fc6-c32f18b291e0.png">
 
 https://activemq.apache.org/installation
+https://www.javatpoint.com/jms-tutorial
 
 ```
 
